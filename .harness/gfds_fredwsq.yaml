@@ -1,0 +1,21 @@
+template:
+  name: gfds
+  identifier: gfds
+  versionLabel: fredwsq
+  type: Step
+  projectIdentifier: cypress_project_436389a5b6054e0c85fed77d8350046f
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      executionTarget: {}
+      delegateSelectors: []
+      source:
+        type: Inline
+        spec:
+          script: <+input>
+      environmentVariables: []
+      outputVariables: []
