@@ -1,0 +1,30 @@
+pipeline:
+  name: testFile
+  identifier: testFile
+  projectIdentifier: cypress_project_436389a5b6054e0c85fed77d8350046f
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: stg1
+        identifier: stg1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: <+input>
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
