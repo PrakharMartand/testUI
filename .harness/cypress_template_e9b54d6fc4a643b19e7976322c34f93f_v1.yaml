@@ -16,3 +16,19 @@ template:
             templateRef: cypress_template_15ba325e27174de292ee4c9500d59eed
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_a4d18396a3344e1ea0bc8710018f3785
+          identifier: cypress_stage_a4d18396a3344e1ea0bc8710018f3785
+          tags: {}
+          template:
+            templateRef: cypress_template_6d6a3fe6f5a44cd0b3e5167df46add11
+            versionLabel: v1
+            gitBranch: main-patch
+      - stage:
+          name: cypress_stage_d4f7038e8d33433f9d98222cc27368f7
+          identifier: cypress_stage_d4f7038e8d33433f9d98222cc27368f7
+          tags: {}
+          template:
+            templateRef: cypress_template_c5a853d87550462baa8853e68e8f752f
+            versionLabel: v1
+            gitBranch: main
